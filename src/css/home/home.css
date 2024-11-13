@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 33px 66px;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+    flex-flow: row nowrap;  
+    text-align: center;
+    gap: 6rem; 
+}
+
+.header__menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.border-grey{
+    border-bottom: 1px solid #F4F3F3;
+}
